@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>O(n!) example</title>
+</head>
+<body>
+  <p>O(n!) example</p>
+  <script>
+    const factorial = n => {
+      if (n === 0) return 1;
+      return n * factorial(n - 1);
+    };
+
+    // Uncomment to activate the following to call the function and then console.log it:
+    console.log(factorial(1)); // Should log the factorial of 1
+    console.log(factorial(5)); // Should log the factorial of 5
+    console.log(factorial(10)); // Should log the factorial of 10
+    console.log(factorial(12)); // Should log the factorial of 12
+  </script>
+</body>
+</html>
